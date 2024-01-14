@@ -3,7 +3,7 @@
 #Bài 10.1: Tìm giá trị lớn nhất, giá trị nhỏ nhất, sử dụng hàm thư viện Numbers:
 import numbers
 def GT_max(a,b,c):
-    GT_max = max(a,b,c)         
+    GT_max = max(a,b,c)         # hàm tự thiết lập không được trùng tên với các hàm trong thư viện như: max, min, mod, pow, abs, ceil, floor, fabs, round, sqrt ...
     return GT_max
 
 def GT_min(a,b,c):

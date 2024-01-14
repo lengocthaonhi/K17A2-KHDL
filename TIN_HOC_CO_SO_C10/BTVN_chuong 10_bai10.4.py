@@ -4,4 +4,4 @@
 import math
 x=int(input("Nhập x:"))
 n=int(input("Nhập n:"))
-print("A=",pow((pow(x,2)+x+1),n)+pow((pow(x,2)-x+1),n)) 
+print("A=",pow((pow(x,2)+x+1),n)+pow((pow(x,2)-x+1),n)) # đã import math rồi nên chỉ cần viết pow thay vì viết đầy đủ math.pow
