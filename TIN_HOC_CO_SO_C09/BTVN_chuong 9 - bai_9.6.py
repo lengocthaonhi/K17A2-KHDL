@@ -8,7 +8,7 @@ def kiem_tra_so_nguyen_to(n):
     elif n == 2:
         return True
     else:
-        for i in range(2, n):               # Chỉ có thể kiểm tra trong n có n > 2
+        for i in range(2, n):              
             if n % i==0:
                 return False
                 break

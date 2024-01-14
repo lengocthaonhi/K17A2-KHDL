@@ -17,10 +17,10 @@ P_CN = lambda a,b: (a+b)*2
 
 
 # Gọi hàm:
-r=float(input("Nhập bán kính hình tròn r = "))          # Bước 1: Nhập biến
+r=float(input("Nhập bán kính hình tròn r = "))          
 a=float(input("Nhập chiều dài hình chữ nhật a = "))
 b=float(input("Nhập chiều rộng hình chữ nhậtb = "))
-                                                        # Bước 2: In kết quả (Diễn giải, tên hàm đúng cú pháp --> sẽ trả về kết quả ở return)
+                                                        
 print("Diện tích hình tròn S =",S_tron(r))          
 print("Chu vi hình tròn C=",P_tron(r))
 print("Diện tích hình chữ nhật S=",S_CN(a,b))
